@@ -12,7 +12,7 @@ description: "Phoenix Technology Center - Modern workspace and technology soluti
         Phoenix Technology Center
       </h1>
       <p class="text-xl text-gray-600 mb-8 max-w-3xl mx-auto">
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+        Experience a workspace designed for remote workers, freelancers, and entrepreneurs to thrive.
       </p>
       <div class="flex flex-col sm:flex-row gap-4 justify-center">
         <a href="#services" class="inline-flex items-center px-6 py-3 bg-blue-600 hover:bg-blue-700 text-white font-medium rounded-lg transition-colors">
