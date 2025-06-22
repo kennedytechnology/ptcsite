@@ -4,7 +4,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## Project Overview
 
-This is a modern static site built with Eleventy 3.0+, Tailwind CSS, and modern web APIs. The setup emphasizes performance, developer experience, and cutting-edge web standards without complex build tooling.
+This is the website for **Phoenix Technology Center**, built with Eleventy 3.0+, Tailwind CSS, and modern web APIs. The setup emphasizes performance, developer experience, and cutting-edge web standards without complex build tooling. The site showcases technology services, collaborative workspace, innovation labs, and professional development programs.
 
 ## Core Technologies
 
@@ -12,6 +12,7 @@ This is a modern static site built with Eleventy 3.0+, Tailwind CSS, and modern 
 - **Tailwind CSS 3.4+**: Utility-first CSS with container queries and modern features  
 - **Alpine.js 3.14**: Lightweight JavaScript framework for interactivity
 - **PostCSS**: CSS processing with autoprefixer
+- **Icon Libraries**: Heroicons (316 icons) and Lucide (1,500+ icons) for modern iconography
 - **Modern Web APIs**: View Transitions, Container Queries, Speculation Rules
 
 ## Development Commands
@@ -48,7 +49,7 @@ src/
 ### Eleventy Configuration (`.eleventy.js`)
 - **Async imports**: Uses dynamic imports for ES modules compatibility
 - **Image optimization**: Configured for AVIF, WebP, JPEG with multiple sizes
-- **Asset handling**: Passes through static assets and copies Alpine.js
+- **Asset handling**: Passes through static assets, Alpine.js, and Lucide icons
 - **Template formats**: Markdown, Nunjucks, HTML, Liquid
 - **Development server**: Hot reloading with incremental builds
 
@@ -108,6 +109,13 @@ src/
 - Use Nunjucks macros for component-like functionality
 - Include via `{% include "component-name.njk" %}`
 - Pass data via include context or global data
+
+### Using Icons
+- **Lucide Icons**: Use `<i data-lucide="icon-name" class="w-6 h-6"></i>`
+- **Heroicons**: Available as React components or individual SVGs
+- **Popular icons**: cpu, users, lightbulb, graduation-cap, rocket, network, award, shield-check, clock, headphones, zap, home, info
+- **Automatic initialization**: Icons are automatically rendered on page load
+- **Sizing**: Use Tailwind classes like `w-4 h-4`, `w-6 h-6`, `w-8 h-8` for consistent sizing
 
 ## Image Handling
 
