@@ -8,7 +8,7 @@ description: "Phoenix Technology Center - Modern workspace and technology soluti
 <section class="bg-gray-50 py-20">
   <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
     <div class="text-center">
-      <h1 class="text-4xl md:text-6xl font-bold text-red-600 mb-6">
+      <h1 class="text-4xl md:text-6xl font-bold text-blue-600 mb-6">
         Phoenix Technology Center
       </h1>
       <p class="text-xl text-gray-600 mb-8 max-w-3xl mx-auto">
