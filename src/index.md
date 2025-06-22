@@ -93,3 +93,22 @@ Empowering innovation through cutting-edge technology solutions and collaborativ
     </div>
   </div>
 </div>
+
+## Latest Updates
+
+<div class="card max-w-4xl mx-auto mt-8 p-6">
+  <div class="flex items-center mb-3">
+    <i data-lucide="info" class="w-5 h-5 text-primary-500 mr-2"></i>
+    <h3 class="text-lg font-semibold">System Status</h3>
+  </div>
+  <div class="text-gray-600 dark:text-gray-400">
+    <div class="flex items-center mb-2">
+      <span class="inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-medium bg-green-100 text-green-800 dark:bg-green-900 dark:text-green-200 mr-2">
+        Online
+      </span>
+      <span class="text-sm text-gray-500 dark:text-gray-500">Last updated: June 22, 2025 at 17:03 UTC</span>
+    </div>
+    <p>All systems operational - Claude integration successfully tested and actively working on PRs!</p>
+    <p class="text-sm mt-1 text-gray-500 dark:text-gray-500">✓ Live PR collaboration confirmed</p>
+  </div>
+</div>
