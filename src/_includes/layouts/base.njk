@@ -38,13 +38,20 @@
         <div class="flex justify-between h-16">
           <div class="flex items-center">
             <a href="/" class="flex-shrink-0 flex items-center nav-link">
-              <span class="text-2xl font-bold text-primary-500">Modern Site</span>
+              <i data-lucide="zap" class="w-8 h-8 text-primary-500 mr-2"></i>
+              <span class="text-2xl font-bold text-primary-500">Phoenix Tech Center</span>
             </a>
           </div>
           
           <div class="hidden md:flex md:items-center md:space-x-8">
-            <a href="/" class="nav-link text-gray-900 dark:text-gray-100 hover:text-primary-500 px-3 py-2 text-sm font-medium">Home</a>
-            <a href="/about/" class="nav-link text-gray-900 dark:text-gray-100 hover:text-primary-500 px-3 py-2 text-sm font-medium">About</a>
+            <a href="/" class="nav-link text-gray-900 dark:text-gray-100 hover:text-primary-500 px-3 py-2 text-sm font-medium flex items-center">
+              <i data-lucide="home" class="w-4 h-4 mr-1"></i>
+              Home
+            </a>
+            <a href="/about/" class="nav-link text-gray-900 dark:text-gray-100 hover:text-primary-500 px-3 py-2 text-sm font-medium flex items-center">
+              <i data-lucide="info" class="w-4 h-4 mr-1"></i>
+              About
+            </a>
           </div>
         </div>
       </nav>
@@ -63,7 +70,19 @@
     </footer>
   </div>
   
+  <!-- Icon Libraries -->
+  <script src="/assets/js/lucide.js"></script>
+  
   <!-- Alpine.js for lightweight interactivity -->
   <script src="/assets/js/alpine.js" defer></script>
+  
+  <!-- Initialize Lucide Icons -->
+  <script>
+    document.addEventListener('DOMContentLoaded', function() {
+      if (typeof lucide !== 'undefined') {
+        lucide.createIcons();
+      }
+    });
+  </script>
 </body>
 </html>

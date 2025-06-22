@@ -13,7 +13,8 @@ module.exports = async function(eleventyConfig) {
   // Pass through static assets
   eleventyConfig.addPassthroughCopy("src/assets");
   eleventyConfig.addPassthroughCopy({
-    "node_modules/alpinejs/dist/cdn.min.js": "assets/js/alpine.js"
+    "node_modules/alpinejs/dist/cdn.min.js": "assets/js/alpine.js",
+    "node_modules/lucide/dist/umd/lucide.js": "assets/js/lucide.js"
   });
   eleventyConfig.addPassthroughCopy("src/_includes/js/view-transitions.js");
 

@@ -1,33 +1,95 @@
 ---
 layout: layouts/base.njk
-title: "Modern Eleventy + WebC + Tailwind"
-description: "A killer static site setup with the latest web technologies"
+title: "Phoenix Technology Center"
+description: "Empowering innovation through cutting-edge technology solutions and collaborative workspace"
 ---
 
-# Welcome to Your Modern Static Site
+# Welcome to Phoenix Technology Center
 
-This site is built with:
+Empowering innovation through cutting-edge technology solutions and collaborative workspace.
 
-- **Eleventy 3.0+** with WebC components
-- **Tailwind CSS** with container queries
-- **Alpine.js** for interactive elements
-- **View Transitions API** for smooth navigation
-- Modern performance optimizations
+## Our Services
 
-<div class="card max-w-4xl mx-auto mt-12">
-  <h2 class="text-2xl font-bold mb-6">Modern Web Technologies</h2>
-  <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-    <div class="p-4 bg-primary-50 dark:bg-primary-900 rounded-lg">
-      <h3 class="font-semibold mb-2">⚡ Lightning Fast</h3>
-      <p class="text-sm text-gray-600 dark:text-gray-400">Incremental builds & modern optimization</p>
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mt-8">
+  <div class="card p-6">
+    <div class="flex items-center mb-4">
+      <i data-lucide="cpu" class="w-8 h-8 text-primary-500 mr-3"></i>
+      <h3 class="text-lg font-semibold">Technology Solutions</h3>
     </div>
-    <div class="p-4 bg-primary-50 dark:bg-primary-900 rounded-lg">
-      <h3 class="font-semibold mb-2">🧩 Component-Driven</h3>
-      <p class="text-sm text-gray-600 dark:text-gray-400">WebC components with zero-config bundling</p>
+    <p class="text-gray-600 dark:text-gray-400">Custom software development and IT consulting services.</p>
+  </div>
+  
+  <div class="card p-6">
+    <div class="flex items-center mb-4">
+      <i data-lucide="users" class="w-8 h-8 text-primary-500 mr-3"></i>
+      <h3 class="text-lg font-semibold">Collaborative Workspace</h3>
     </div>
-    <div class="p-4 bg-primary-50 dark:bg-primary-900 rounded-lg">
-      <h3 class="font-semibold mb-2">📱 Truly Responsive</h3>
-      <p class="text-sm text-gray-600 dark:text-gray-400">Container queries for perfect layouts</p>
+    <p class="text-gray-600 dark:text-gray-400">Modern co-working spaces designed for tech professionals.</p>
+  </div>
+  
+  <div class="card p-6">
+    <div class="flex items-center mb-4">
+      <i data-lucide="lightbulb" class="w-8 h-8 text-primary-500 mr-3"></i>
+      <h3 class="text-lg font-semibold">Innovation Lab</h3>
+    </div>
+    <p class="text-gray-600 dark:text-gray-400">Cutting-edge facilities for research and development.</p>
+  </div>
+  
+  <div class="card p-6">
+    <div class="flex items-center mb-4">
+      <i data-lucide="graduation-cap" class="w-8 h-8 text-primary-500 mr-3"></i>
+      <h3 class="text-lg font-semibold">Training Programs</h3>
+    </div>
+    <p class="text-gray-600 dark:text-gray-400">Professional development and certification courses.</p>
+  </div>
+  
+  <div class="card p-6">
+    <div class="flex items-center mb-4">
+      <i data-lucide="rocket" class="w-8 h-8 text-primary-500 mr-3"></i>
+      <h3 class="text-lg font-semibold">Startup Incubator</h3>
+    </div>
+    <p class="text-gray-600 dark:text-gray-400">Support and resources for emerging tech companies.</p>
+  </div>
+  
+  <div class="card p-6">
+    <div class="flex items-center mb-4">
+      <i data-lucide="network" class="w-8 h-8 text-primary-500 mr-3"></i>
+      <h3 class="text-lg font-semibold">Networking Events</h3>
+    </div>
+    <p class="text-gray-600 dark:text-gray-400">Regular meetups and conferences for tech community.</p>
+  </div>
+</div>
+
+## Why Choose Phoenix Technology Center?
+
+<div class="card max-w-4xl mx-auto mt-12 p-8">
+  <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+    <div>
+      <div class="flex items-center mb-4">
+        <i data-lucide="award" class="w-6 h-6 text-primary-500 mr-2"></i>
+        <h3 class="text-xl font-semibold">Industry Excellence</h3>
+      </div>
+      <p class="text-gray-600 dark:text-gray-400 mb-4">Award-winning facility with state-of-the-art technology infrastructure.</p>
+      
+      <div class="flex items-center mb-4">
+        <i data-lucide="shield-check" class="w-6 h-6 text-primary-500 mr-2"></i>
+        <h3 class="text-xl font-semibold">Security First</h3>
+      </div>
+      <p class="text-gray-600 dark:text-gray-400">Enterprise-grade security and data protection protocols.</p>
+    </div>
+    
+    <div>
+      <div class="flex items-center mb-4">
+        <i data-lucide="clock" class="w-6 h-6 text-primary-500 mr-2"></i>
+        <h3 class="text-xl font-semibold">24/7 Access</h3>
+      </div>
+      <p class="text-gray-600 dark:text-gray-400 mb-4">Round-the-clock facility access for maximum flexibility.</p>
+      
+      <div class="flex items-center mb-4">
+        <i data-lucide="headphones" class="w-6 h-6 text-primary-500 mr-2"></i>
+        <h3 class="text-xl font-semibold">Expert Support</h3>
+      </div>
+      <p class="text-gray-600 dark:text-gray-400">Dedicated technical support team available when you need help.</p>
     </div>
   </div>
 </div>
