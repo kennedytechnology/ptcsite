@@ -33,24 +33,34 @@
 </head>
 <body class="h-full bg-white dark:bg-gray-900 text-gray-900 dark:text-gray-100">
   <div class="min-h-full">
-    <header class="bg-white dark:bg-gray-900 shadow-sm border-b border-gray-200 dark:border-gray-700">
+    <header class="bg-white/80 dark:bg-gray-900/80 backdrop-blur-md shadow-lg border-b border-gray-200/50 dark:border-gray-700/50 sticky top-0 z-50">
       <nav class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div class="flex justify-between h-16">
+        <div class="flex justify-between h-20">
           <div class="flex items-center">
-            <a href="/" class="flex-shrink-0 flex items-center nav-link">
-              <i data-lucide="zap" class="w-8 h-8 text-primary-500 mr-2"></i>
-              <span class="text-2xl font-bold text-primary-500">Phoenix Tech Center</span>
+            <a href="/" class="flex-shrink-0 flex items-center nav-link group">
+              <div class="w-10 h-10 bg-gradient-to-br from-primary-500 to-purple-600 rounded-lg flex items-center justify-center mr-3 group-hover:scale-110 transition-transform duration-200">
+                <i data-lucide="zap" class="w-6 h-6 text-white"></i>
+              </div>
+              <span class="text-2xl font-bold bg-gradient-to-r from-primary-500 to-purple-600 bg-clip-text text-transparent">Phoenix Tech Center</span>
             </a>
           </div>
           
-          <div class="hidden md:flex md:items-center md:space-x-8">
-            <a href="/" class="nav-link text-gray-900 dark:text-gray-100 hover:text-primary-500 px-3 py-2 text-sm font-medium flex items-center">
-              <i data-lucide="home" class="w-4 h-4 mr-1"></i>
+          <div class="hidden md:flex md:items-center md:space-x-6">
+            <a href="/" class="nav-link text-gray-700 dark:text-gray-200 hover:text-primary-500 px-4 py-2 text-sm font-medium flex items-center rounded-lg hover:bg-primary-50 dark:hover:bg-primary-900/20 transition-all">
+              <i data-lucide="home" class="w-4 h-4 mr-2"></i>
               Home
             </a>
-            <a href="/about/" class="nav-link text-gray-900 dark:text-gray-100 hover:text-primary-500 px-3 py-2 text-sm font-medium flex items-center">
-              <i data-lucide="info" class="w-4 h-4 mr-1"></i>
+            <a href="/pages/about/" class="nav-link text-gray-700 dark:text-gray-200 hover:text-primary-500 px-4 py-2 text-sm font-medium flex items-center rounded-lg hover:bg-primary-50 dark:hover:bg-primary-900/20 transition-all">
+              <i data-lucide="info" class="w-4 h-4 mr-2"></i>
               About
+            </a>
+            <a href="#services" class="nav-link text-gray-700 dark:text-gray-200 hover:text-primary-500 px-4 py-2 text-sm font-medium flex items-center rounded-lg hover:bg-primary-50 dark:hover:bg-primary-900/20 transition-all">
+              <i data-lucide="briefcase" class="w-4 h-4 mr-2"></i>
+              Services
+            </a>
+            <a href="#contact" class="inline-flex items-center px-4 py-2 bg-gradient-to-r from-primary-500 to-purple-600 hover:from-primary-600 hover:to-purple-700 text-white font-medium rounded-lg transition-all duration-200 shadow-md hover:shadow-lg transform hover:-translate-y-0.5">
+              <i data-lucide="mail" class="w-4 h-4 mr-2"></i>
+              Contact
             </a>
           </div>
         </div>
@@ -61,11 +71,66 @@
       {{ content | safe }}
     </main>
     
-    <footer class="bg-gray-50 dark:bg-gray-800 border-t border-gray-200 dark:border-gray-700">
-      <div class="max-w-7xl mx-auto py-12 px-4 sm:px-6 lg:px-8">
-        <p class="text-center text-sm text-gray-500 dark:text-gray-400">
-          © 2024 Modern Eleventy. Built with ❤️ and modern web standards.
-        </p>
+    <footer class="bg-gradient-to-br from-gray-900 to-gray-800 text-white">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+          <div class="lg:col-span-2">
+            <div class="flex items-center mb-6">
+              <div class="w-12 h-12 bg-gradient-to-br from-primary-500 to-purple-600 rounded-lg flex items-center justify-center mr-4">
+                <i data-lucide="zap" class="w-7 h-7 text-white"></i>
+              </div>
+              <span class="text-2xl font-bold">Phoenix Technology Center</span>
+            </div>
+            <p class="text-gray-300 mb-6 max-w-md leading-relaxed">
+              Empowering innovation through cutting-edge technology solutions and collaborative workspace. Join our community of forward-thinking professionals.
+            </p>
+            <div class="flex space-x-4">
+              <a href="#" class="w-10 h-10 bg-gray-700 hover:bg-primary-500 rounded-lg flex items-center justify-center transition-colors">
+                <i data-lucide="twitter" class="w-5 h-5"></i>
+              </a>
+              <a href="#" class="w-10 h-10 bg-gray-700 hover:bg-primary-500 rounded-lg flex items-center justify-center transition-colors">
+                <i data-lucide="linkedin" class="w-5 h-5"></i>
+              </a>
+              <a href="#" class="w-10 h-10 bg-gray-700 hover:bg-primary-500 rounded-lg flex items-center justify-center transition-colors">
+                <i data-lucide="github" class="w-5 h-5"></i>
+              </a>
+            </div>
+          </div>
+          
+          <div>
+            <h3 class="text-lg font-semibold mb-4">Services</h3>
+            <ul class="space-y-2 text-gray-300">
+              <li><a href="#" class="hover:text-primary-400 transition-colors">Technology Solutions</a></li>
+              <li><a href="#" class="hover:text-primary-400 transition-colors">Workspace</a></li>
+              <li><a href="#" class="hover:text-primary-400 transition-colors">Innovation Lab</a></li>
+              <li><a href="#" class="hover:text-primary-400 transition-colors">Training</a></li>
+            </ul>
+          </div>
+          
+          <div>
+            <h3 class="text-lg font-semibold mb-4">Contact</h3>
+            <ul class="space-y-2 text-gray-300">
+              <li class="flex items-center">
+                <i data-lucide="mail" class="w-4 h-4 mr-2 text-primary-400"></i>
+                hello@phoenixtech.center
+              </li>
+              <li class="flex items-center">
+                <i data-lucide="phone" class="w-4 h-4 mr-2 text-primary-400"></i>
+                +1 (555) 123-4567
+              </li>
+              <li class="flex items-center">
+                <i data-lucide="map-pin" class="w-4 h-4 mr-2 text-primary-400"></i>
+                Phoenix, Arizona
+              </li>
+            </ul>
+          </div>
+        </div>
+        
+        <div class="border-t border-gray-700 mt-12 pt-8 text-center">
+          <p class="text-gray-400 text-sm">
+            © 2025 Phoenix Technology Center. Built with modern web standards and ❤️
+          </p>
+        </div>
       </div>
     </footer>
   </div>
