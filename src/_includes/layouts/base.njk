@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en" class="h-full">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{% if title %}{{ title }} | Modern Eleventy{% else %}Modern Eleventy{% endif %}</title>
+  <meta name="description" content="{{ description or 'A modern static site built with Eleventy, WebC, and Tailwind CSS' }}">
+  
+  <!-- Modern meta tags -->
+  <meta name="robots" content="index, follow">
+  <meta name="theme-color" content="#6366f1">
+  <meta name="color-scheme" content="light dark">
+  
+  <!-- CSS -->
+  <link rel="stylesheet" href="/assets/css/main.css">
+  
+  <!-- View Transitions API -->
+  <meta name="view-transition" content="same-origin">
+  
+  <!-- Speculation Rules API for performance -->
+  <script type="speculationrules">
+  {
+    "prerender": [{
+      "where": { "href_matches": "/*" },
+      "eagerness": "moderate"
+    }],
+    "prefetch": [{
+      "where": { "href_matches": "/*" },
+      "eagerness": "conservative"
+    }]
+  }
+  </script>
+</head>
+<body class="h-full bg-white dark:bg-gray-900 text-gray-900 dark:text-gray-100">
+  <div class="min-h-full">
+    <header class="bg-white dark:bg-gray-900 shadow-sm border-b border-gray-200 dark:border-gray-700">
+      <nav class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="flex justify-between h-16">
+          <div class="flex items-center">
+            <a href="/" class="flex-shrink-0 flex items-center nav-link">
+              <span class="text-2xl font-bold text-primary-500">Modern Site</span>
+            </a>
+          </div>
+          
+          <div class="hidden md:flex md:items-center md:space-x-8">
+            <a href="/" class="nav-link text-gray-900 dark:text-gray-100 hover:text-primary-500 px-3 py-2 text-sm font-medium">Home</a>
+            <a href="/about/" class="nav-link text-gray-900 dark:text-gray-100 hover:text-primary-500 px-3 py-2 text-sm font-medium">About</a>
+          </div>
+        </div>
+      </nav>
+    </header>
+    
+    <main id="main" class="flex-1">
+      {{ content }}
+    </main>
+    
+    <footer class="bg-gray-50 dark:bg-gray-800 border-t border-gray-200 dark:border-gray-700">
+      <div class="max-w-7xl mx-auto py-12 px-4 sm:px-6 lg:px-8">
+        <p class="text-center text-sm text-gray-500 dark:text-gray-400">
+          © 2024 Modern Eleventy. Built with ❤️ and modern web standards.
+        </p>
+      </div>
+    </footer>
+  </div>
+  
+  <!-- Alpine.js for lightweight interactivity -->
+  <script src="/assets/js/alpine.js" defer></script>
+</body>
+</html>
