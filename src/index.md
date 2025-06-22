@@ -93,3 +93,18 @@ Empowering innovation through cutting-edge technology solutions and collaborativ
     </div>
   </div>
 </div>
+
+## Latest Updates
+
+<div class="card max-w-4xl mx-auto mt-8 p-6">
+  <div class="flex items-center mb-3">
+    <i data-lucide="info" class="w-5 h-5 text-primary-500 mr-2"></i>
+    <h3 class="text-lg font-semibold">System Status</h3>
+  </div>
+  <p class="text-gray-600 dark:text-gray-400">
+    <span class="inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-medium bg-green-100 text-green-800 dark:bg-green-900 dark:text-green-200">
+      Online
+    </span>
+    All systems operational - Claude integration successfully tested on June 22, 2025
+  </p>
+</div>
