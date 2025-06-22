@@ -8,7 +8,6 @@
   # Environment variables for the build
   [build.environment]
     NODE_VERSION = "18"
-    NPM_FLAGS = "--prefix=/opt/buildhome/.nodejs"
 
 # Redirect rules for single page application behavior
 [[redirects]]
