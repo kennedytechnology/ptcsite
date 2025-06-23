@@ -40,7 +40,7 @@ description: "Phoenix Technology Center - Modern workspace and technology soluti
 
     <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
       <div class="bg-white p-6 rounded-lg shadow-md border border-gray-200">
-        <h3 class="text-xl font-semibold text-gray-900 mb-3">Technology Solutions</h3>
+        <h3 class="text-xl font-semibold text-gray-900 mb-3">Dedicated desks & hot desks</h3>
         <p class="text-gray-600">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
       </div>
       
