@@ -1,114 +1,181 @@
 ---
 layout: layouts/base.njk
 title: "Phoenix Technology Center"
-description: "Empowering innovation through cutting-edge technology solutions and collaborative workspace"
+description: "Phoenix Technology Center - Modern workspace and technology solutions"
 ---
 
-# Welcome to Phoenix Technology Center
-
-Empowering innovation through cutting-edge technology solutions and collaborative workspace.
-
-## Our Services
-
-<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mt-8">
-  <div class="card p-6">
-    <div class="flex items-center mb-4">
-      <i data-lucide="cpu" class="w-8 h-8 text-primary-500 mr-3"></i>
-      <h3 class="text-lg font-semibold">Technology Solutions</h3>
-    </div>
-    <p class="text-gray-600 dark:text-gray-400">Custom software development and IT consulting services.</p>
-  </div>
-  
-  <div class="card p-6">
-    <div class="flex items-center mb-4">
-      <i data-lucide="users" class="w-8 h-8 text-primary-500 mr-3"></i>
-      <h3 class="text-lg font-semibold">Collaborative Workspace</h3>
-    </div>
-    <p class="text-gray-600 dark:text-gray-400">Modern co-working spaces designed for tech professionals.</p>
-  </div>
-  
-  <div class="card p-6">
-    <div class="flex items-center mb-4">
-      <i data-lucide="lightbulb" class="w-8 h-8 text-primary-500 mr-3"></i>
-      <h3 class="text-lg font-semibold">Innovation Lab</h3>
-    </div>
-    <p class="text-gray-600 dark:text-gray-400">Cutting-edge facilities for research and development.</p>
-  </div>
-  
-  <div class="card p-6">
-    <div class="flex items-center mb-4">
-      <i data-lucide="graduation-cap" class="w-8 h-8 text-primary-500 mr-3"></i>
-      <h3 class="text-lg font-semibold">Training Programs</h3>
-    </div>
-    <p class="text-gray-600 dark:text-gray-400">Professional development and certification courses.</p>
-  </div>
-  
-  <div class="card p-6">
-    <div class="flex items-center mb-4">
-      <i data-lucide="rocket" class="w-8 h-8 text-primary-500 mr-3"></i>
-      <h3 class="text-lg font-semibold">Startup Incubator</h3>
-    </div>
-    <p class="text-gray-600 dark:text-gray-400">Support and resources for emerging tech companies.</p>
-  </div>
-  
-  <div class="card p-6">
-    <div class="flex items-center mb-4">
-      <i data-lucide="network" class="w-8 h-8 text-primary-500 mr-3"></i>
-      <h3 class="text-lg font-semibold">Networking Events</h3>
-    </div>
-    <p class="text-gray-600 dark:text-gray-400">Regular meetups and conferences for tech community.</p>
-  </div>
-</div>
-
-## Why Choose Phoenix Technology Center?
-
-<div class="card max-w-4xl mx-auto mt-12 p-8">
-  <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
-    <div>
-      <div class="flex items-center mb-4">
-        <i data-lucide="award" class="w-6 h-6 text-primary-500 mr-2"></i>
-        <h3 class="text-xl font-semibold">Industry Excellence</h3>
+<!-- Hero Section -->
+<section class="bg-gray-50 py-20">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <div class="text-center">
+      <h1 class="text-4xl md:text-6xl font-bold text-blue-600 mb-6" style="color: #2563eb;">
+        Phoenix Technology Center
+      </h1>
+      <p class="text-xl text-gray-600 mb-8 max-w-3xl mx-auto">
+        Experience a workspace designed for remote workers, freelancers, and entrepreneurs to thrive.
+      </p>
+      <div class="flex flex-col sm:flex-row gap-4 justify-center">
+        <a href="#services" class="inline-flex items-center px-6 py-3 bg-blue-600 hover:bg-blue-700 text-white font-medium rounded-lg transition-colors">
+          Explore Services
+        </a>
+        <a href="#about" class="inline-flex items-center px-6 py-3 bg-white hover:bg-gray-50 text-gray-900 font-medium rounded-lg border border-gray-300 transition-colors">
+          Learn More
+        </a>
       </div>
-      <p class="text-gray-600 dark:text-gray-400 mb-4">Award-winning facility with state-of-the-art technology infrastructure.</p>
+    </div>
+  </div>
+</section>
+
+<!-- Services Section -->
+<section id="services" class="py-20 bg-white">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <div class="text-center mb-16">
+      <h2 class="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
+        Our Services
+      </h2>
+      <p class="text-lg text-gray-600 max-w-2xl mx-auto">
+        What our space offers:
+      </p>
+    </div>
+
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+      <div class="bg-white p-6 rounded-lg shadow-md border border-gray-200">
+        <h3 class="text-xl font-semibold text-gray-900 mb-3">Dedicated desks & hot desks</h3>
+        <p class="text-gray-600">A mix of reserved and flexible seating for different work styles.</p>
+      </div>
       
-      <div class="flex items-center mb-4">
-        <i data-lucide="shield-check" class="w-6 h-6 text-primary-500 mr-2"></i>
-        <h3 class="text-xl font-semibold">Security First</h3>
+      <div class="bg-white p-6 rounded-lg shadow-md border border-gray-200">
+        <h3 class="text-xl font-semibold text-gray-900 mb-3">Collaborative Workspace</h3>
+        <p class="text-gray-600">Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
       </div>
-      <p class="text-gray-600 dark:text-gray-400">Enterprise-grade security and data protection protocols.</p>
-    </div>
-    
-    <div>
-      <div class="flex items-center mb-4">
-        <i data-lucide="clock" class="w-6 h-6 text-primary-500 mr-2"></i>
-        <h3 class="text-xl font-semibold">24/7 Access</h3>
-      </div>
-      <p class="text-gray-600 dark:text-gray-400 mb-4">Round-the-clock facility access for maximum flexibility.</p>
       
-      <div class="flex items-center mb-4">
-        <i data-lucide="headphones" class="w-6 h-6 text-primary-500 mr-2"></i>
-        <h3 class="text-xl font-semibold">Expert Support</h3>
+      <div class="bg-white p-6 rounded-lg shadow-md border border-gray-200">
+        <h3 class="text-xl font-semibold text-gray-900 mb-3">Innovation Lab</h3>
+        <p class="text-gray-600">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
       </div>
-      <p class="text-gray-600 dark:text-gray-400">Dedicated technical support team available when you need help.</p>
+      
+      <div class="bg-white p-6 rounded-lg shadow-md border border-gray-200">
+        <h3 class="text-xl font-semibold text-gray-900 mb-3">Training Programs</h3>
+        <p class="text-gray-600">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim.</p>
+      </div>
+      
+      <div class="bg-white p-6 rounded-lg shadow-md border border-gray-200">
+        <h3 class="text-xl font-semibold text-gray-900 mb-3">Startup Incubator</h3>
+        <p class="text-gray-600">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.</p>
+      </div>
+      
+      <div class="bg-white p-6 rounded-lg shadow-md border border-gray-200">
+        <h3 class="text-xl font-semibold text-gray-900 mb-3">Networking Events</h3>
+        <p class="text-gray-600">Totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae.</p>
+      </div>
     </div>
   </div>
-</div>
+</section>
 
-## Latest Updates
-
-<div class="card max-w-4xl mx-auto mt-8 p-6">
-  <div class="flex items-center mb-3">
-    <i data-lucide="info" class="w-5 h-5 text-primary-500 mr-2"></i>
-    <h3 class="text-lg font-semibold">System Status</h3>
-  </div>
-  <div class="text-gray-600 dark:text-gray-400">
-    <div class="flex items-center mb-2">
-      <span class="inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-medium bg-green-100 text-green-800 dark:bg-green-900 dark:text-green-200 mr-2">
-        Online
-      </span>
-      <span class="text-sm text-gray-500 dark:text-gray-500">Last updated: June 22, 2025 at 17:03 UTC</span>
+<!-- About Section -->
+<section id="about" class="py-20 bg-gray-50">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <div class="text-center mb-16">
+      <h2 class="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
+        About Us
+      </h2>
+      <p class="text-lg text-gray-600 max-w-2xl mx-auto">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore.
+      </p>
     </div>
-    <p>All systems operational - Claude integration successfully tested and actively working on PRs!</p>
-    <p class="text-sm mt-1 text-gray-500 dark:text-gray-500">✓ Live PR collaboration confirmed</p>
+
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+      <div class="text-center">
+        <div class="w-16 h-16 bg-blue-100 rounded-lg flex items-center justify-center mx-auto mb-4">
+          <div class="w-8 h-8 bg-blue-600 rounded"></div>
+        </div>
+        <h3 class="text-xl font-semibold text-gray-900 mb-3">Excellence</h3>
+        <p class="text-gray-600">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
+      </div>
+
+      <div class="text-center">
+        <div class="w-16 h-16 bg-green-100 rounded-lg flex items-center justify-center mx-auto mb-4">
+          <div class="w-8 h-8 bg-green-600 rounded"></div>
+        </div>
+        <h3 class="text-xl font-semibold text-gray-900 mb-3">Security</h3>
+        <p class="text-gray-600">Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip.</p>
+      </div>
+
+      <div class="text-center">
+        <div class="w-16 h-16 bg-purple-100 rounded-lg flex items-center justify-center mx-auto mb-4">
+          <div class="w-8 h-8 bg-purple-600 rounded"></div>
+        </div>
+        <h3 class="text-xl font-semibold text-gray-900 mb-3">24/7 Access</h3>
+        <p class="text-gray-600">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore.</p>
+      </div>
+
+      <div class="text-center">
+        <div class="w-16 h-16 bg-orange-100 rounded-lg flex items-center justify-center mx-auto mb-4">
+          <div class="w-8 h-8 bg-orange-600 rounded"></div>
+        </div>
+        <h3 class="text-xl font-semibold text-gray-900 mb-3">Support</h3>
+        <p class="text-gray-600">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia.</p>
+      </div>
+    </div>
   </div>
-</div>
+</section>
+
+<!-- Contact Section -->
+<section id="contact" class="py-20 bg-white">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <div class="text-center mb-16">
+      <h2 class="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
+        Get In Touch
+      </h2>
+      <p class="text-lg text-gray-600 max-w-2xl mx-auto">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore.
+      </p>
+    </div>
+
+    <div class="grid grid-cols-1 lg:grid-cols-2 gap-12">
+      <div class="space-y-8">
+        <div>
+          <h3 class="text-xl font-semibold text-gray-900 mb-2">Visit Our Location</h3>
+          <p class="text-gray-600">1234 Innovation Drive<br>Phoenix, AZ 85001<br>United States</p>
+        </div>
+
+        <div>
+          <h3 class="text-xl font-semibold text-gray-900 mb-2">Call Us</h3>
+          <p class="text-gray-600">+1 (555) 123-4567<br>Monday - Friday: 9AM - 6PM</p>
+        </div>
+
+        <div>
+          <h3 class="text-xl font-semibold text-gray-900 mb-2">Email Us</h3>
+          <p class="text-gray-600">hello@phoenixtech.center<br>We'll get back to you within 24 hours</p>
+        </div>
+      </div>
+
+      <div class="bg-gray-50 p-8 rounded-lg">
+        <h3 class="text-2xl font-bold text-gray-900 mb-6">Send Message</h3>
+        <form class="space-y-6">
+          <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+            <div>
+              <label class="block text-sm font-medium text-gray-700 mb-2">First Name</label>
+              <input type="text" class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent" placeholder="John">
+            </div>
+            <div>
+              <label class="block text-sm font-medium text-gray-700 mb-2">Last Name</label>
+              <input type="text" class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent" placeholder="Doe">
+            </div>
+          </div>
+          <div>
+            <label class="block text-sm font-medium text-gray-700 mb-2">Email</label>
+            <input type="email" class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent" placeholder="john@example.com">
+          </div>
+          <div>
+            <label class="block text-sm font-medium text-gray-700 mb-2">Message</label>
+            <textarea rows="4" class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent" placeholder="Your message here..."></textarea>
+          </div>
+          <button type="submit" class="w-full px-6 py-3 bg-blue-600 hover:bg-blue-700 text-white font-medium rounded-lg transition-colors">
+            Send Message
+          </button>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>
