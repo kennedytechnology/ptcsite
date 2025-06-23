@@ -50,7 +50,7 @@ description: "Phoenix Technology Center - Modern workspace and technology soluti
       </div>
       
       <div class="bg-white p-6 rounded-lg shadow-md border border-gray-200">
-        <h3 class="text-xl font-semibold text-gray-900 mb-3">Innovation Lab</h3>
+        <h3 class="text-xl font-semibold text-gray-900 mb-3">High-speed internet & reliable Wi-Fi</h3>
         <p class="text-gray-600">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
       </div>
       
