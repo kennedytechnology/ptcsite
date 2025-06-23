@@ -4,7 +4,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## Project Overview
 
-This is the website for **Phoenix Technology Center**, built with Eleventy 3.0+, Tailwind CSS, and modern web APIs. The setup emphasizes performance, developer experience, and cutting-edge web standards without complex build tooling. The site showcases technology services, collaborative workspace, innovation labs, and professional development programs.
+This is the website for **Phoenix Technology Center**, built with Eleventy 3.0+, Tailwind CSS, and modern web APIs. The setup emphasizes performance, developer experience, and cutting-edge web standards without complex build tooling. The site showcases technology services, lounge areas & breakout spaces, innovation labs, and professional development programs.
 
 ## Core Technologies
 
