@@ -55,7 +55,7 @@ description: "Phoenix Technology Center - Modern workspace and technology soluti
       </div>
       
       <div class="bg-white p-6 rounded-lg shadow-md border border-gray-200">
-        <h3 class="text-xl font-semibold text-gray-900 mb-3">Training Programs</h3>
+        <h3 class="text-xl font-semibold text-gray-900 mb-3">Power outlets & charging stations</h3>
         <p class="text-gray-600">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim.</p>
       </div>
       
