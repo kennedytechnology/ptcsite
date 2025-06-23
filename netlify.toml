@@ -1,5 +1,6 @@
 [build]
   # Build command - runs the production build
+  # NOTE: Make sure Netlify dashboard build command is EMPTY for this to work!
   command = "npm run build"
   
   # Publish directory - where the built site files are
