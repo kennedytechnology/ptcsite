@@ -34,7 +34,7 @@ description: "Phoenix Technology Center - Modern workspace and technology soluti
         Our Services
       </h2>
       <p class="text-lg text-gray-600 max-w-2xl mx-auto">
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore.
+        What our space offers:
       </p>
     </div>
 
