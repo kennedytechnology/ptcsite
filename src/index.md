@@ -87,7 +87,7 @@ description: "Phoenix Technology Center - Modern workspace and technology soluti
   <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
     <div class="text-center mb-16">
       <h2 class="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
-        Monthly events & socials
+        Monthly Events & Socials
       </h2>
       <p class="text-lg text-gray-600 max-w-2xl mx-auto">
         Join our vibrant community for networking events, skill-sharing sessions, and social gatherings designed to connect professionals and foster collaboration.
