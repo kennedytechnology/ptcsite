@@ -90,7 +90,7 @@ description: "Phoenix Technology Center - Modern workspace and technology soluti
         Monthly Events & Socials
       </h2>
       <p class="text-lg text-gray-600 max-w-2xl mx-auto">
-        Join our vibrant community for networking events, skill-sharing sessions, and social gatherings designed to connect professionals and foster collaboration.
+        Game Nights, Happy Hours, and Learning sessions to build community.
       </p>
     </div>
 
