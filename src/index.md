@@ -45,6 +45,11 @@ description: "Phoenix Technology Center - Modern workspace and technology soluti
       </div>
       
       <div class="bg-white p-6 rounded-lg shadow-md border border-gray-200">
+        <h3 class="text-xl font-semibold text-gray-900 mb-3">Ergonomic chairs & desks</h3>
+        <p class="text-gray-600">Comfortable seating for long work sessions.</p>
+      </div>
+      
+      <div class="bg-white p-6 rounded-lg shadow-md border border-gray-200">
         <h3 class="text-xl font-semibold text-gray-900 mb-3">Collaborative Workspace</h3>
         <p class="text-gray-600">Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
       </div>
@@ -67,6 +72,11 @@ description: "Phoenix Technology Center - Modern workspace and technology soluti
       <div class="bg-white p-6 rounded-lg shadow-md border border-gray-200">
         <h3 class="text-xl font-semibold text-gray-900 mb-3">Coffee, Tea & and Refreshments</h3>
         <p class="text-gray-600">Free options for any member</p>
+      </div>
+      
+      <div class="bg-white p-6 rounded-lg shadow-md border border-gray-200">
+        <h3 class="text-xl font-semibold text-gray-900 mb-3">Event Space / Workshop Areas</h3>
+        <p class="text-gray-600">A designated spot for networking events and skill-sharing sessions.</p>
       </div>
     </div>
   </div>
