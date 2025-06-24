@@ -50,23 +50,23 @@ description: "Phoenix Technology Center - Modern workspace and technology soluti
       </div>
       
       <div class="bg-white p-6 rounded-lg shadow-md border border-gray-200">
-        <h3 class="text-xl font-semibold text-gray-900 mb-3">Innovation Lab</h3>
-        <p class="text-gray-600">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+        <h3 class="text-xl font-semibold text-gray-900 mb-3">High-speed internet & reliable Wi-Fi</h3>
+        <p class="text-gray-600">Fast, stable internet is non-negotiable.</p>
       </div>
       
       <div class="bg-white p-6 rounded-lg shadow-md border border-gray-200">
-        <h3 class="text-xl font-semibold text-gray-900 mb-3">Training Programs</h3>
-        <p class="text-gray-600">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim.</p>
+        <h3 class="text-xl font-semibold text-gray-900 mb-3">Power outlets & charging stations</h3>
+        <p class="text-gray-600">Plenty of accessible outlets at every desk.</p>
       </div>
       
       <div class="bg-white p-6 rounded-lg shadow-md border border-gray-200">
-        <h3 class="text-xl font-semibold text-gray-900 mb-3">Startup Incubator</h3>
-        <p class="text-gray-600">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.</p>
+        <h3 class="text-xl font-semibold text-gray-900 mb-3">Secure network & VPN access</h3>
+        <p class="text-gray-600">Data security matters, especially for remote professionals.</p>
       </div>
       
       <div class="bg-white p-6 rounded-lg shadow-md border border-gray-200">
-        <h3 class="text-xl font-semibold text-gray-900 mb-3">Networking Events</h3>
-        <p class="text-gray-600">Totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae.</p>
+        <h3 class="text-xl font-semibold text-gray-900 mb-3">Coffee, Tea & and Refreshments</h3>
+        <p class="text-gray-600">Free options for any member</p>
       </div>
     </div>
   </div>
