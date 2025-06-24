@@ -40,42 +40,42 @@ description: "Phoenix Technology Center - Modern workspace and technology soluti
 
     <div class="grid grid-cols-1 sm:grid-cols-3 gap-8">
       <div class="bg-white p-6 rounded-lg shadow-md border border-gray-200">
-        <h3 class="text-xl font-semibold text-gray-900 mb-3">Dedicated desks & hot desks</h3>
+        <h3 class="text-xl font-semibold text-gray-900 mb-3 text-center">Dedicated desks & hot desks</h3>
         <p class="text-gray-600">A mix of reserved and flexible seating for different work styles.</p>
       </div>
       
       <div class="bg-white p-6 rounded-lg shadow-md border border-gray-200">
-        <h3 class="text-xl font-semibold text-gray-900 mb-3">Ergonomic chairs & desks</h3>
+        <h3 class="text-xl font-semibold text-gray-900 mb-3 text-center">Ergonomic chairs & desks</h3>
         <p class="text-gray-600">Comfortable seating for long work sessions.</p>
       </div>
       
       <div class="bg-white p-6 rounded-lg shadow-md border border-gray-200">
-        <h3 class="text-xl font-semibold text-gray-900 mb-3">Collaborative Workspace</h3>
+        <h3 class="text-xl font-semibold text-gray-900 mb-3 text-center">Collaborative Workspace</h3>
         <p class="text-gray-600">Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
       </div>
       
       <div class="bg-white p-6 rounded-lg shadow-md border border-gray-200">
-        <h3 class="text-xl font-semibold text-gray-900 mb-3">High-speed internet & reliable Wi-Fi</h3>
+        <h3 class="text-xl font-semibold text-gray-900 mb-3 text-center">High-speed internet & reliable Wi-Fi</h3>
         <p class="text-gray-600">Fast, stable internet is non-negotiable.</p>
       </div>
       
       <div class="bg-white p-6 rounded-lg shadow-md border border-gray-200">
-        <h3 class="text-xl font-semibold text-gray-900 mb-3">Power outlets & charging stations</h3>
+        <h3 class="text-xl font-semibold text-gray-900 mb-3 text-center">Power outlets & charging stations</h3>
         <p class="text-gray-600">Plenty of accessible outlets at every desk.</p>
       </div>
       
       <div class="bg-white p-6 rounded-lg shadow-md border border-gray-200">
-        <h3 class="text-xl font-semibold text-gray-900 mb-3">Secure network & VPN access</h3>
+        <h3 class="text-xl font-semibold text-gray-900 mb-3 text-center">Secure network & VPN access</h3>
         <p class="text-gray-600">Data security matters, especially for remote professionals.</p>
       </div>
       
       <div class="bg-white p-6 rounded-lg shadow-md border border-gray-200">
-        <h3 class="text-xl font-semibold text-gray-900 mb-3">Coffee, Tea & and Refreshments</h3>
+        <h3 class="text-xl font-semibold text-gray-900 mb-3 text-center">Coffee, Tea & and Refreshments</h3>
         <p class="text-gray-600">Free options for any member</p>
       </div>
       
       <div class="bg-white p-6 rounded-lg shadow-md border border-gray-200">
-        <h3 class="text-xl font-semibold text-gray-900 mb-3">Event Space / Workshop Areas</h3>
+        <h3 class="text-xl font-semibold text-gray-900 mb-3 text-center">Event Space / Workshop Areas</h3>
         <p class="text-gray-600">A designated spot for networking events and skill-sharing sessions.</p>
       </div>
     </div>
@@ -185,23 +185,23 @@ description: "Phoenix Technology Center - Modern workspace and technology soluti
     <div class="grid grid-cols-1 lg:grid-cols-2 gap-12">
       <div class="space-y-8">
         <div>
-          <h3 class="text-xl font-semibold text-gray-900 mb-2">Visit Our Location</h3>
+          <h3 class="text-xl font-semibold text-gray-900 mb-2 text-center">Visit Our Location</h3>
           <p class="text-gray-600">1234 Innovation Drive<br>Phoenix, AZ 85001<br>United States</p>
         </div>
 
         <div>
-          <h3 class="text-xl font-semibold text-gray-900 mb-2">Call Us</h3>
+          <h3 class="text-xl font-semibold text-gray-900 mb-2 text-center">Call Us</h3>
           <p class="text-gray-600">+1 (555) 123-4567<br>Monday - Friday: 9AM - 6PM</p>
         </div>
 
         <div>
-          <h3 class="text-xl font-semibold text-gray-900 mb-2">Email Us</h3>
+          <h3 class="text-xl font-semibold text-gray-900 mb-2 text-center">Email Us</h3>
           <p class="text-gray-600">hello@phoenixtech.center<br>We'll get back to you within 24 hours</p>
         </div>
       </div>
 
       <div class="bg-gray-50 p-8 rounded-lg">
-        <h3 class="text-2xl font-bold text-gray-900 mb-6">Send Message</h3>
+        <h3 class="text-2xl font-bold text-gray-900 mb-6 text-center">Send Message</h3>
         <form class="space-y-6">
           <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
             <div>
