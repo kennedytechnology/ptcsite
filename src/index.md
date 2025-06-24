@@ -82,6 +82,46 @@ description: "Phoenix Technology Center - Modern workspace and technology soluti
   </div>
 </section>
 
+<!-- Monthly Events & Socials Section -->
+<section class="py-20 bg-blue-50">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <div class="text-center mb-16">
+      <h2 class="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
+        Monthly Events & Socials
+      </h2>
+      <p class="text-lg text-gray-600 max-w-2xl mx-auto">
+        Join our vibrant community for networking events, skill-sharing sessions, and social gatherings designed to connect professionals and foster collaboration.
+      </p>
+    </div>
+
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+      <div class="bg-white p-6 rounded-lg shadow-md border border-gray-200 text-center">
+        <div class="w-16 h-16 bg-blue-100 rounded-lg flex items-center justify-center mx-auto mb-4">
+          <i data-lucide="calendar" class="w-8 h-8 text-blue-600"></i>
+        </div>
+        <h3 class="text-xl font-semibold text-gray-900 mb-3">Networking Events</h3>
+        <p class="text-gray-600">Connect with like-minded professionals, share ideas, and build lasting business relationships.</p>
+      </div>
+      
+      <div class="bg-white p-6 rounded-lg shadow-md border border-gray-200 text-center">
+        <div class="w-16 h-16 bg-green-100 rounded-lg flex items-center justify-center mx-auto mb-4">
+          <i data-lucide="lightbulb" class="w-8 h-8 text-green-600"></i>
+        </div>
+        <h3 class="text-xl font-semibold text-gray-900 mb-3">Skill-Sharing Sessions</h3>
+        <p class="text-gray-600">Learn from experts and share your knowledge through workshops and educational meetups.</p>
+      </div>
+      
+      <div class="bg-white p-6 rounded-lg shadow-md border border-gray-200 text-center">
+        <div class="w-16 h-16 bg-purple-100 rounded-lg flex items-center justify-center mx-auto mb-4">
+          <i data-lucide="users" class="w-8 h-8 text-purple-600"></i>
+        </div>
+        <h3 class="text-xl font-semibold text-gray-900 mb-3">Social Gatherings</h3>
+        <p class="text-gray-600">Relax and unwind with fellow community members at our casual social events and celebrations.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
 <!-- About Section -->
 <section id="about" class="py-20 bg-gray-50">
   <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
