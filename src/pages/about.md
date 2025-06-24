@@ -4,11 +4,15 @@ title: "About"
 description: "Learn more about this modern web setup"
 ---
 
-# About This Site
+<h1 class="text-4xl md:text-6xl font-bold text-blue-600 mb-6 text-center" style="color: #2563eb;">
+  About This Site
+</h1>
 
 This site demonstrates modern web development practices using:
 
-## Technologies Used
+<h2 class="text-3xl md:text-4xl font-bold text-gray-900 mb-4 text-center">
+  Technologies Used
+</h2>
 
 - **Static Site Generation**: Eleventy 3.0+ with incremental builds
 - **Component System**: WebC for reusable, encapsulated components  
@@ -16,7 +20,9 @@ This site demonstrates modern web development practices using:
 - **JavaScript**: Alpine.js for lightweight interactivity
 - **Performance**: View Transitions API, Speculation Rules, and modern optimizations
 
-## Key Features
+<h2 class="text-3xl md:text-4xl font-bold text-gray-900 mb-4 text-center">
+  Key Features
+</h2>
 
 - Zero-config WebC components with automatic bundling
 - Container queries for truly responsive design
@@ -26,10 +32,10 @@ This site demonstrates modern web development practices using:
 - Progressive enhancement principles
 
 <div class="card">
-  <h2 class="text-xl font-bold mb-4">Technology Stack</h2>
+  <h2 class="text-xl font-bold mb-4 text-center">Technology Stack</h2>
   <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
     <div>
-      <h3 class="font-semibold text-primary-500">Frontend</h3>
+      <h3 class="font-semibold text-primary-500 text-center">Frontend</h3>
       <ul class="text-sm text-gray-600 dark:text-gray-400 mt-2">
         <li>• Eleventy 3.0+ (Static Site Generator)</li>
         <li>• WebC Components</li>
@@ -38,7 +44,7 @@ This site demonstrates modern web development practices using:
       </ul>
     </div>
     <div>
-      <h3 class="font-semibold text-primary-500">Modern Features</h3>
+      <h3 class="font-semibold text-primary-500 text-center">Modern Features</h3>
       <ul class="text-sm text-gray-600 dark:text-gray-400 mt-2">
         <li>• View Transitions API</li>
         <li>• Container Queries</li>
