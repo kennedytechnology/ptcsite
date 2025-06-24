@@ -46,7 +46,7 @@ description: "Phoenix Technology Center - Modern workspace and technology soluti
       
       <div class="bg-white p-6 rounded-lg shadow-md border border-gray-200">
         <h3 class="text-xl font-semibold text-gray-900 mb-3">Ergonomic chairs & desks</h3>
-        <p class="text-gray-600">Comfortable, adjustable seating and work surfaces designed for long hours of productive work.</p>
+        <p class="text-gray-600">Comfortable seating for long work sessions.</p>
       </div>
       
       <div class="bg-white p-6 rounded-lg shadow-md border border-gray-200">
