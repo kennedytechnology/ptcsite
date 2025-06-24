@@ -68,6 +68,11 @@ description: "Phoenix Technology Center - Modern workspace and technology soluti
         <h3 class="text-xl font-semibold text-gray-900 mb-3">Coffee, Tea & and Refreshments</h3>
         <p class="text-gray-600">Free options for any member</p>
       </div>
+      
+      <div class="bg-white p-6 rounded-lg shadow-md border border-gray-200">
+        <h3 class="text-xl font-semibold text-gray-900 mb-3">Event Space / Workshop Areas</h3>
+        <p class="text-gray-600">Flexible spaces for hosting events, workshops, and collaborative sessions.</p>
+      </div>
     </div>
   </div>
 </section>
