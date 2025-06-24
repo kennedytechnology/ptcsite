@@ -6,7 +6,7 @@ description: "Phoenix Technology Center - Modern workspace and technology soluti
 
 <!-- Hero Section -->
 <section class="bg-gray-50 py-20">
-  <div class="max-w-full mx-auto px-4 sm:px-6 lg:px-8">
+  <div class="max-w-full mx-auto">
     <div class="text-center">
       <h1 class="text-4xl md:text-6xl font-bold text-blue-600 mb-6" style="color: #2563eb;">
         Phoenix Technology Center
@@ -28,7 +28,7 @@ description: "Phoenix Technology Center - Modern workspace and technology soluti
 
 <!-- Services Section -->
 <section id="services" class="py-20 bg-white">
-  <div class="max-w-full mx-auto px-4 sm:px-6 lg:px-8">
+  <div class="max-w-full mx-auto">
     <div class="text-center mb-16">
       <h2 class="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
         Our Services
@@ -84,7 +84,7 @@ description: "Phoenix Technology Center - Modern workspace and technology soluti
 
 <!-- Monthly Events & Socials Section -->
 <section class="py-20 bg-blue-50">
-  <div class="max-w-full mx-auto px-4 sm:px-6 lg:px-8">
+  <div class="max-w-full mx-auto">
     <div class="text-center mb-16">
       <h2 class="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
         Monthly Events & Socials
@@ -124,7 +124,7 @@ description: "Phoenix Technology Center - Modern workspace and technology soluti
 
 <!-- About Section -->
 <section id="about" class="py-20 bg-gray-50">
-  <div class="max-w-full mx-auto px-4 sm:px-6 lg:px-8">
+  <div class="max-w-full mx-auto">
     <div class="text-center mb-16">
       <h2 class="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
         About Us
@@ -172,7 +172,7 @@ description: "Phoenix Technology Center - Modern workspace and technology soluti
 
 <!-- Contact Section -->
 <section id="contact" class="py-20 bg-white">
-  <div class="max-w-full mx-auto px-4 sm:px-6 lg:px-8">
+  <div class="max-w-full mx-auto">
     <div class="text-center mb-16">
       <h2 class="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
         Get In Touch
