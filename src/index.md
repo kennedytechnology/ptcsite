@@ -38,7 +38,7 @@ description: "Phoenix Technology Center - Modern workspace and technology soluti
       </p>
     </div>
 
-    <div class="grid grid-cols-1 gap-8">
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
       <div class="bg-white p-6 rounded-lg shadow-md border border-gray-200">
         <h3 class="text-xl font-semibold text-gray-900 mb-3">Dedicated desks & hot desks</h3>
         <p class="text-gray-600">A mix of reserved and flexible seating for different work styles.</p>
@@ -94,7 +94,7 @@ description: "Phoenix Technology Center - Modern workspace and technology soluti
       </p>
     </div>
 
-    <div class="grid grid-cols-1 gap-8">
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
       <div class="bg-white p-6 rounded-lg shadow-md border border-gray-200 text-center">
         <div class="w-16 h-16 bg-blue-100 rounded-lg flex items-center justify-center mx-auto mb-4">
           <i data-lucide="calendar" class="w-8 h-8 text-blue-600"></i>
@@ -134,7 +134,7 @@ description: "Phoenix Technology Center - Modern workspace and technology soluti
       </p>
     </div>
 
-    <div class="grid grid-cols-1 gap-8">
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
       <div class="text-center">
         <div class="w-16 h-16 bg-blue-100 rounded-lg flex items-center justify-center mx-auto mb-4">
           <div class="w-8 h-8 bg-blue-600 rounded"></div>
